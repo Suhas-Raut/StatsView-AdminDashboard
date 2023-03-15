@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>StatsView | Dashboard</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Favicon -->
+    <link rel="icon" href="images/favicon.ico" />
+
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/5eb5597a71.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <nav>
+      <!-- Logo Section -->
+      <div class="logo">
+        <div class="logo-image">
+          <img src="images/logo.png" alt="logo" />
+        </div>
+        <span class="logo-name">StatsView</span>
+      </div>
+
+      <!-- Menu Items List -->
+      <div class="menu-items">
+        <ul class="nav-links">
+          <li>
+            <a href="#">
+              <i class="fa-solid fa-house"></i>
+              <span class="link-name">Dashboard</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fa-solid fa-folder"></i>
+              <span class="link-name">Contents</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fa-solid fa-chart-area"></i>
+              <span class="link-name">Analytics</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fa-solid fa-heart"></i>
+              <span class="link-name">Like</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fa-solid fa-comment"></i>
+              <span class="link-name">Comment</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fa-solid fa-share"></i>
+              <span class="link-name">Share</span>
+            </a>
+          </li>
+        </ul>
+
+        <ul class="logout-mode">
+          <li>
+            <a href="#">
+              <i class="fa-solid fa-right-from-bracket"></i>
+              <span class="link-name">Logout</span>
+            </a>
+          </li>
+
+          <li class="mode">
+            <a href="#">
+              <i class="fa-solid fa-moon"></i>
+              <span class="link-name">Dark Mode</span>
+            </a>
+
+            <div class="mode-toggle">
+              <span class="switch"></span>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Dashboard And Search Box -->
+    <section class="Dashboard">
+      <div class="top">
+        <i class="fa-solid fa-bars sidebar-toggle"></i>
+
+        <div class="search-box">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <input type="text" placeholder="Search Here..." />
+        </div>
+
+        <img src="images/profile.png" alt="suhas-profile" />
+      </div>
+
+      <div class="dash-content">
+
+        <!-- Overview -->
+        <div class="overview">
+          <div class="title">
+            <i class="fa-solid fa-gauge-simple-high"></i>
+            <span class="text">Dashboard</span>
+          </div>
+
+          <!-- Boxes  -->
+          <div class="boxes">
+            <div class="box box1">
+              <i class="fa-solid fa-heart"></i>
+              <span class="text">Likes</span>
+              <span class="number">20,125</span>
+            </div>
+
+            <div class="box box2">
+              <i class="fa-solid fa-comment"></i>
+              <span class="text">Comments</span>
+              <span class="number">5,000</span>
+            </div>
+
+            <div class="box box3">
+              <i class="fa-solid fa-share"></i>
+              <span class="text">Shares</span>
+              <span class="number">1,500</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="activity">
+          <div class="title">
+            <i class="fa-solid fa-clock"></i>
+            <span class="text">Activity</span>
+          </div>
+
+          <div class="activity-data">
+            <div class="data names">
+              <span class="data-title">Name</span>
+              <span class="data-list">John Wick</span>
+              <span class="data-list">John Wick</span>
+              <span class="data-list">John Wick</span>
+              <span class="data-list">John Wick</span>
+              <span class="data-list">John Wick</span>
+              <span class="data-list">John Wick</span>
+              <span class="data-list">John Wick</span>
+              <span class="data-list">John Wick</span>
+            </div>
+
+            <div class="data email">
+              <span class="data-title">Email</span>
+              <span class="data-list">johnwick4@gmail.com</span>
+              <span class="data-list">johnwick4@gmail.com</span>
+              <span class="data-list">johnwick4@gmail.com</span>
+              <span class="data-list">johnwick4@gmail.com</span>
+              <span class="data-list">johnwick4@gmail.com</span>
+              <span class="data-list">johnwick4@gmail.com</span>
+              <span class="data-list">johnwick4@gmail.com</span>
+              <span class="data-list">johnwick4@gmail.com</span>
+            </div>
+
+            <div class="data joined">
+              <span class="data-title">Joined</span>
+              <span class="data-list">2023-03-15</span>
+              <span class="data-list">2023-03-15</span>
+              <span class="data-list">2023-03-15</span>
+              <span class="data-list">2023-03-15</span>
+              <span class="data-list">2023-03-15</span>
+              <span class="data-list">2023-03-15</span>
+              <span class="data-list">2023-03-15</span>
+              <span class="data-list">2023-03-15</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Script -->
+    <script src="script.js"></script>
+  </body>
+</html>
